@@ -22,3 +22,12 @@ Displays the customer details in bootstrap card layout
 
 On click of each customer card displays the address of the customer
 
+## Screenshots
+
+![alt text](customer_list.png)
+
+![alt text](customer_address.png)
+
+
+
+
