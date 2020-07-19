@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm card p-3 m-3" *ngFor="let obj of addresses">
+      <dl class="row">
+          <dt class="col-sm-3">Customer Id</dt>
+          <dd class="col-sm-9">{{obj.customerId}}</dd>
+          <dt class="col-sm-3">Address</dt>
+          <dd class="col-sm-9">{{obj.address}}</dd>
+          <dt class="col-sm-3">City</dt>
+          <dd class="col-sm-9">{{obj.city}}</dd>
+          <dt class="col-sm-3">Pincode</dt>
+          <dd class="col-sm-9">{{obj.pincode}}</dd>
+          <dt class="col-sm-3">Country</dt>
+          <dd class="col-sm-9">{{obj.country}}</dd>
+      </dl>
+  </div>
+</div>
